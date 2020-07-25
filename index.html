@@ -36,18 +36,24 @@
 
   <main>
     <h1>Blog Posts</h1>
-
     <section>
-      <h2>Add New Blog!</h2>
-      <form action="">
-        <label for="fname">First name:</label><br>
-        <input class = "new-blog-title" type="text" id="fname" name="fname" value="Title example"><br>
 
-        <label for="lname">Last name:</label><br>
-        <textarea class="new-blog-content">stuff</textarea>
-        <input type="submit" class="submit-button" value="Add">
-      </form> 
-      
+      <form action="">
+        <h2>Add New Blog!</h2>
+
+        <label for="title-input">Blog Title:</label><br>
+        <input class="new-blog-title" type="text" id="title-input" name="title-input" value="Title example"><br>
+
+        <label>Content:</label><br>
+        <textarea class="new-blog-content"> </textarea>
+        <div class="buttons"> 
+          <input type="button" class="submit-button" value="Add">
+          <input type="button" value="Clear" class="clear-button">
+        </div>
+
+
+      </form>
+
     </section>
 
 

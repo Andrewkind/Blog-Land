@@ -18,6 +18,12 @@ h1 {
     margin: 25px;
 }
 
+h2 {
+    
+    margin-bottom: 10px;
+
+}
+
 article {
     margin: 25px;
 }
@@ -34,6 +40,8 @@ article {
 
 .details-container {
     display: grid;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 
@@ -44,4 +52,45 @@ article {
 
 .delete {
     grid-column: 1;
+}
+
+form {
+    margin: 25px;
+    display: grid;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+.submit-button, .clear-button {
+    width: 60%;
+    height: 60px;
+    font-size: 22px;
+    justify-self: center;
+    color: white;
+    background-color: black;
+}
+
+.buttons {
+    display: grid;
+}
+
+.submit-button {
+    grid-column: 1;
+}
+
+.clear-button {
+    grid-column: 2;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+small {
+    margin-top: 10px;
 }

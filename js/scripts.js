@@ -1,7 +1,19 @@
+// Set up Clear button
+let clearButton = document.querySelector(".clear-button");
+clearButton.addEventListener("click", () => {
 
-function deleteBlog() {
+  
+  // Clear title
+let titleText = document.querySelector(".new-blog-title");
+let contentText = document.querySelector(".new-blog-content");
 
-}
+titleText.value = "";
+contentText.value = "";
+
+console.log("done done");
+  // Clear content
+
+});
 
 
 /**
