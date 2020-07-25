@@ -10,3 +10,21 @@ nav {
     padding: 25px;
 
 }
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 25px;
+}
+
+article {
+    margin: 25px;
+}
+
+p {
+    margin: 5px;
+}
+small {
+    margin: 5px;
+}
