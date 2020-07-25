@@ -22,9 +22,26 @@ article {
     margin: 25px;
 }
 
-p {
-    margin: 5px;
+
+.delete, .edit {
+    cursor: pointer;
+    color: red;
 }
-small {
-    margin: 5px;
+
+.editable {
+    border: 1px solid black;
+}
+
+.details-container {
+    display: grid;
+}
+
+
+
+.date {
+    grid-column: 2;
+}
+
+.delete {
+    grid-column: 1;
 }
