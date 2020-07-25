@@ -1,0 +1,12 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+
+nav {
+    display: grid;
+    justify-items: center;
+    font-size: 44px;
+    padding: 25px;
+
+}
