@@ -1,6 +1,11 @@
+// focus on input on load
+document.querySelector(".new-blog-title").focus();
+
 // Set up Clear button
 let clearButton = document.querySelector(".clear-button");
-clearButton.addEventListener("click", () => {
+clearButton.addEventListener("click", clearInputs);
+
+function clearInputs() {
 
   
   // Clear title
@@ -13,7 +18,7 @@ contentText.value = "";
 console.log("done done");
   // Clear content
 
-});
+}
 
 
 /**
@@ -201,4 +206,7 @@ function addClick(e) {
   console.log(article);
   articles.push(article);
   article.output();
+
+  clearInputs();
+
 }
