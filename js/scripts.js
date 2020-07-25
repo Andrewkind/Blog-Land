@@ -61,7 +61,7 @@ class Article {
 
     var d = new Date().toLocaleString();
 
-    date.innerText = d;
+    date.innerText = `Created: ${d}`;
 
     // When Delete is clicked, delete the item
     deleteText.addEventListener("click", function () {
